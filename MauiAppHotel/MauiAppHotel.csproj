@@ -57,9 +57,39 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\quarto-luxo-1.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Fonts\Kalam-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Kalam-Light.ttf" />
+	  <None Remove="Resources\Fonts\Kalam-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Mogra-Regular.ttf" />
+	  <None Remove="Resources\Fonts\PlaywriteGBS-Italic-VariableFont_wght.ttf" />
+	  <None Remove="Resources\Fonts\PlaywriteGBS-VariableFont_wght.ttf" />
+	  <None Remove="Resources\Fonts\SpaceGrotesk-VariableFont.ttf" />
+	  <None Remove="Resources\Fonts\varelaround_regular.ttf" />
+	  <None Remove="Resources\Images\lencois.png" />
+	  <None Remove="Resources\Images\quarto-luxo-1.png" />
+	  <None Remove="Resources\Images\quarto_luxo_1.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\ContratacaoHospedagem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HospedagemContratada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Sobre.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             BackgroundImageSource="lencois.png">
+
+    <VerticalStackLayout
+       Spacing="5"
+       Padding="10">
+
+        <Frame Padding="10"
+               BackgroundColor="{StaticResource Gray100}">
+
+            <Label Text="Sobre o Aplicativo"
+                   FontFamily="varelaround"
+                   FontAttributes="Bold"
+                   FontSize="35"
+                   HorizontalTextAlignment="Center"/>
+
+        </Frame>
+
+        <Frame  BorderColor="Aqua"
+                BackgroundColor="#99FFFFFF"
+                Padding="60">
+
+            <VerticalStackLayout>
+
+                <Image  Source="quarto_luxo_1.png"
+                        Shadow="{Shadow Brush=Black}"
+                        Aspect="AspectFit" 
+                        HeightRequest="170" 
+                        HorizontalOptions="Start"/>
+
+                <Label Text="Desenvolvido por:"
+                       FontFamily="SpaceGrotesk"
+                       FontSize="18" 
+                       HorizontalOptions="Center" 
+                       TextColor="Black"/>
+
+                <Label Text="Wellington Gondim"
+                       FontFamily="Playwrt"
+                       FontSize="18"
+                       HorizontalOptions="Center" 
+                       TextColor="Black"/>
+
+                <Label Text="Ano de Desenvolvimento:"
+                       FontFamily="SpaceGrotesk"
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       TextColor="Black"/>
+
+                <Label Text="2024"
+                       FontFamily="Playwrt"
+                       FontSize="14"
+                       HorizontalOptions="Center" 
+                       TextColor="Black"/>
+
+            </VerticalStackLayout>
+
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
