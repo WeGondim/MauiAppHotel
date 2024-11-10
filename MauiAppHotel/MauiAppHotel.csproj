@@ -57,10 +57,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\Lençol.png" />
 	  <MauiImage Remove="Resources\Images\quarto-luxo-1.png" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\CaveatBrush-Regular.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Light.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Regular.ttf" />
@@ -70,6 +72,8 @@
 	  <None Remove="Resources\Fonts\SpaceGrotesk-VariableFont.ttf" />
 	  <None Remove="Resources\Fonts\varelaround_regular.ttf" />
 	  <None Remove="Resources\Images\lencois.png" />
+	  <None Remove="Resources\Images\lencol.png" />
+	  <None Remove="Resources\Images\Lençol.png" />
 	  <None Remove="Resources\Images\quarto-luxo-1.png" />
 	  <None Remove="Resources\Images\quarto.jpeg" />
 	  <None Remove="Resources\Images\quarto_luxo_1.png" />
