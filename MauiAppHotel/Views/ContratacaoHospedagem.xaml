@@ -10,13 +10,13 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
 
-        <Label Text="Calculo da Diária"
-               FontFamily="CaveatBrush-Regular"
-               FontSize="40"
-               TextColor="Blue"
+               <Label Text="Calculo da Diária"
+               FontFamily="Caveat"
+               FontSize="60"
+               TextColor="LightSeaGreen"
                HorizontalOptions="Center"/>
 
-            <Frame Padding="10">
+        <Frame Padding="10">
 
             <VerticalStackLayout>
                 <Grid  
@@ -79,7 +79,9 @@
                         </VerticalStackLayout>
                     </Frame>
 
-                    <Button Text="Avançar" Clicked="Button_Clicked" />
+                    <Button 
+                        BackgroundColor="#3E92CC"
+                        Text="Avançar" Clicked="Button_Clicked" />
 
                 </VerticalStackLayout>
             </Frame>

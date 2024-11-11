@@ -21,6 +21,7 @@ namespace MauiAppHotel
                     fonts.AddFont("SpaceGrotesk-VariableFont.ttf", "SpaceGrotesk");
                     fonts.AddFont("PlaywriteGBS-Italic-VariableFont_wght.ttf", "Playwrt_italic");
                     fonts.AddFont("PlaywriteGBS-VariableFont_wght.ttf", "Playwrt");
+                    fonts.AddFont("CaveatBrush-Regular.ttf", "Caveat");
                 });
 #if DEBUG
             builder.Logging.AddDebug();

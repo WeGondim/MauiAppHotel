@@ -71,6 +71,7 @@
 	  <None Remove="Resources\Fonts\PlaywriteGBS-VariableFont_wght.ttf" />
 	  <None Remove="Resources\Fonts\SpaceGrotesk-VariableFont.ttf" />
 	  <None Remove="Resources\Fonts\varelaround_regular.ttf" />
+	  <None Remove="Resources\Images\banheiro.jpg" />
 	  <None Remove="Resources\Images\lencois.png" />
 	  <None Remove="Resources\Images\lencol.png" />
 	  <None Remove="Resources\Images\Lençol.png" />
@@ -87,6 +88,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\ContratacaoHospedagem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\FotosSuperLuxo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\HospedagemContratada.xaml">
